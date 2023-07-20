@@ -78,3 +78,10 @@ Step 6: Displaying the Uploaded Image
 To display the uploaded image in your views, you can use the standard HTML `<img>` tag with the URL of the uploaded image. Make sure to point it to the correct path based on the directory you specified in the `public_path` method during the image save.
 
 And that's it! You now have a working solution to handle mobile images with rotated orientation in Laravel using the Intervention Image library.
+
+
+**Reference:**
+
+[Link 1: Image::rotate](https://image.intervention.io/v2/api/rotate).
+
+[Link 2: Image::orientate](https://image.intervention.io/v2/api/orientate).
